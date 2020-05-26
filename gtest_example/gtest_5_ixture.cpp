@@ -63,14 +63,16 @@ TEST_F (DecisionTest, increby5)
     ASSERT_EQ(gt_f->ret_val(),105);
 }
 
-// TEST (DecisionTest, inc_by6)
-// {
-//     // arrange
-//     gtest_3 gt(80);
-//     int idname=gt.increment_val(6);
-//      EXPECT_EQ(idname,105);
-
-// }
+TEST_F (DecisionTest, increby10)
+{
+    // arrange
+    // gtest_3 gt(100);
+    gt_f->increment_val(10);
+    // int idname=gt.increment_val(5);
+    //  EXPECT_EQ(gt_f->ret_val,105);
+    std::cout<<gt_f->ret_val()<<std::endl;
+    ASSERT_EQ(gt_f->ret_val(),105);
+}
 
 
 int main(int argc, char ** argv)
