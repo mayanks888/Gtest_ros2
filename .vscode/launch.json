@@ -8,7 +8,7 @@
             "name": "(gdb) Launch",
             "type": "cppdbg",
             "request": "launch",
-            "program": "/home/mayank_s/codebase/cplus_plus/gtest/Gtest_ros2/a.out",
+            "program": "/home/mayank_s/playing_ros/Gtest_ros2/a.out",
             "args": [],
             "stopAtEntry": false,
             "cwd": "${workspaceFolder}",

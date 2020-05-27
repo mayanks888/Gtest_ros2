@@ -1,18 +1,16 @@
 {
     "configurations": [
         {
-            "browse": {
-                "databaseFilename": "",
-                "limitSymbolsToIncludedHeaders": true
-            },
+            "name": "Linux",
             "includePath": [
-                "/usr/include/**"
+                "${workspaceFolder}/**",
+                "/opt/ros/dashing/include/**"
             ],
-            "name": "ROS",
-            "intelliSenseMode": "gcc-x64",
-            "compilerPath": "/usr/bin/clang",
+            "defines": [],
+            "compilerPath": "/usr/bin/gcc",
             "cStandard": "c11",
-            "cppStandard": "c++14"
+            "cppStandard": "c++17",
+            "intelliSenseMode": "clang-x64"
         }
     ],
     "version": 4
