@@ -8,6 +8,7 @@
    1. https://www.eriksmistad.no/getting-started-with-google-test-on-ubuntu/
    2. https://www.youtube.com/watch?v=nbFXI9SDfbk
    3. http://cheezyworld.com/wp-content/uploads/2010/12/PlainGoogleQuickTestReferenceGuide1.pdf
+   4. https://gitlab.com/autowarefoundation/autoware.ai/core_perception
 
 2. what is gtest
 
